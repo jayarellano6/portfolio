@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 export class FooterNav extends Component {
   render() {
     return (
-        <div className="bottomNav animated slideInUp" 
+        <div className="bottomNav" 
         style={{
             textAlign: 'center',
-            position:'absolute', 
+            position:'fixed', 
             bottom:'0', width:'100%', 
             padding: '1rem 0 1rem 0',
             backgroundColor: '#0f0f0f',

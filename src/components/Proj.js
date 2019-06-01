@@ -10,7 +10,7 @@ export class Proj extends Component {
                 Some of my Projects
             </div>
           </h3>  
-          </div>
+        </div>
 
         <div className="ui divided list">
           <div className="item animated slideInLeft" style={{animationDelay: '0s', padding: '.5% 4% .9% 4%'}}>
@@ -41,7 +41,7 @@ export class Proj extends Component {
               they have made.I The project was implemented the app using Swift, Mapkit, and Parse for the database.
               </div>
               <i className="fa fa-github" style={{fontSize:"150%", color:"white", paddingTop: '1%'}}></i>
-              <a className="aProj" href="https://github.com/logic-proof-checker" style={{color: 'white', verticalAlign: 'text-top', marginLeft: '1%'}}>view on github</a>
+              <a className="aProj" href="https://github.com/threesannin" style={{color: 'white', verticalAlign: 'text-top', marginLeft: '1%'}}>view on github</a>
             </div>
           </div>
           <div className="item animated slideInLeft" style={{animationDelay: '1s', padding: '.5% 4% .9% 4%'}}>
@@ -56,9 +56,23 @@ export class Proj extends Component {
               for the backend.
               </div>
               <i className="fa fa-github" style={{fontSize:"150%", color:"white", paddingTop: '1%'}}></i>
-              <a className="aProj" href="https://github.com/logic-proof-checker" style={{color: 'white', verticalAlign: 'text-top', marginLeft: '1%'}}>view on github</a>
+              <a className="aProj" href="https://github.com/cst438petshop7" style={{color: 'white', verticalAlign: 'text-top', marginLeft: '1%'}}>view on github</a>
             </div>
           </div>
+      </div>
+      <hr></hr>
+      <div style={{
+        textAlign: 'center',
+        marginTop: '100px',
+        marginBottom: '60px'
+      }}>
+          <h4 className="ui icon header animated fadeIn" style={{color: 'white'}}>
+            <i className="fa fa-github" style={{fontSize:'3rem'}}></i>
+            <div className="content">
+              View more of my projects on github
+              <div className="sub header" style={{color: 'white'}}><a className="aProj" href="https://github.com/jayarellano6" style={{color: "white"}}>take me to github</a><i className='fas fa-external-link-alt' style={{paddingLeft:'5px', fontSize: '1rem'}}></i></div>
+            </div>
+          </h4>
       </div>
       </div>
     )

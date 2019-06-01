@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import jay from '../assets/jay.jpg'
+import jay from '../assets/j2.JPG'
 
 export class More extends Component {
   render() {
@@ -15,7 +15,6 @@ export class More extends Component {
                     </div>
                 </h3>  
             </div>
-            <br/>
         </div>
     )
   }

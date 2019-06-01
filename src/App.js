@@ -35,14 +35,16 @@ class App extends Component{
             <div className='container' style={{
               backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('+ this.state.bgImgs[Math.floor(Math.random()*this.state.bgImgs.length)] + ')',
               backgroundSize: 'cover',
+              top: '0px'
             }}>
-              <Route exact path="/" component={Intro}/>
-              <Route path="/languagestools" component={LanguagesTools}/>
-              <Route path="/projects" component={Proj}/>
-              <Route path="/more" component={More}/>
-              <FooterNav/>
+              
             </div>
-          </div>
+          
+          <Route exact path="/" component={Intro}/>
+          <Route path="/languagestools" component={LanguagesTools}/>
+          <Route path="/projects" component={Proj}/>
+          <Route path="/more" component={More}/>
+          <FooterNav/></div>
         </Router>
     );
 
